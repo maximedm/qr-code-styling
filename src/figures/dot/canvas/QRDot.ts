@@ -63,7 +63,7 @@ export default class QRDot {
     this._rotateFigure({
       ...args,
       draw: () => {
-        context.arc(0, 0, size / 2, 0, Math.PI * 2);
+        context.arc(0, 0, size / 2.2, 0, Math.PI * 2);
       }
     });
   }

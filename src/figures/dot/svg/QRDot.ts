@@ -56,9 +56,9 @@ export default class QRDot {
       ...args,
       draw: () => {
         this._element = this._window.document.createElementNS("http://www.w3.org/2000/svg", "circle");
-        this._element.setAttribute("cx", String(x + size / 2));
-        this._element.setAttribute("cy", String(y + size / 2));
-        this._element.setAttribute("r", String(size / 2));
+        this._element.setAttribute("cx", String(x + size / 2.2));
+        this._element.setAttribute("cy", String(y + size / 2.2));
+        this._element.setAttribute("r", String(size / 2.2));
       }
     });
   }
